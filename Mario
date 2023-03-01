@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void build(int n);
+void yap(int n);
 
 int main (void)
 {
-    int height;
+    int boyut;
     do
     {
-    printf("height: ");
-    scanf("%d",&height);
+    printf("boyut: ");
+    scanf("%d",&boyut);
     }
-    while (height<1 || height>8);
-        build(height);
+    while (boyut<1 || boyut>8);
+        yap(boyut);
 
 }
-void build(int n)
+void yap(int n)
 {
     for(int i=1;i<(n+1);i++)
     {
